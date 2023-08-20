@@ -130,7 +130,7 @@ figcaption {color: lawngreen}
 
  .boxed {
   border: 5px solid black;
-  padding: 80px 160px;
+  padding: 8px 16px;
   background-color: #DEB887;
   font-size: 25px;
   scroll-snap-margin-top: 100px;
