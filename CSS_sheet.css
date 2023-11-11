@@ -145,7 +145,8 @@ figcaption {color: lawngreen}
    width: 800px;
    height: auto;
    margin: auto;
-   border: 3px solid black;
+   border: 6px solid black;
+   border-style: double;
    background-color: #DEB887;
    padding: 8px 16px;
    border-radius: 15px;
