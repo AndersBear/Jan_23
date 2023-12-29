@@ -261,6 +261,13 @@
        Sometimes you might just want a quick solution.  The greedy algorithm takes less processing.<br>
        The dynamic algorithm requires more processing, but results in the best solution.<br><br>
       <br><br>
+	  Perhaps the difference between how the algorithms work concerns the number of passes they make.
+	  For example, let's look at this set of numbers: [8, 3, 1, 7, 6].
+	  The greedy algorithm will hold the first number, add the 1 and then quit when it gets to the end.
+	  That doesn't make ALL possible comparisons, because ... what about letting the 8 go?
+	  (In other words, what about solutions that DON'T include the 8?)
+	  The dynamic algorithm makes as many passes through the set of numbers as it takes to compare
+	  ALL possible permutations.  In this case, the dynamic algo chooses 3 + 7.<br><br>
   </div><br><br>
 
   <div class="smallboxed"><br>  
